@@ -1,0 +1,10 @@
+const moment = require('moment')
+const saludos = require('./saludos')
+const colors = require('colors/safe')
+
+console.log('oscar'.rainbow)
+console.log('HOLA KODERS!')
+console.log('hora: ', moment().format('YYYY/MM/DD hh:mm'))
+saludos.saludarTodos()
+saludos.otroSaludo()
+console.log(colors.rainbow('esta es una prueba'))
