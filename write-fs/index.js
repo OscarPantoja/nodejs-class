@@ -7,6 +7,7 @@ const fs = require('fs');
 fs.writeFile('./prueba2.txt', 'texto de prueba para que Itiel entienda', function (err) {
     if (err) {
         console.log(err)
+        return
     }
     console.log('Archivo creado')
 });
